@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mjfan.css">
+    <title>Quiz</title>
+</head>
+<body class="body3">
+
+<header class="header4">
+     <div class="logo"> Fanpage.</a>
+     </div>
+     <nav class="navbar">
+         <a href="/mjfan.html"> Home </a>
+         <a href="/about.html"> About </a>
+         <a href="/quiz.html"> Quiz </a>
+         <a href="/gallery.html"> Gallery </a>
+     </nav>
+</header>
+
+
+
+<div class="content2">
+    
+    <div class="quiz-container">
+        <form id="quiz-form-1">
+            <header class="hdr"> MJ Quiz !</header>
+            <div class="question">
+                <p>How many rings does MJ have?</p>
+                <label>
+                    <input type="radio" name="question1" value="a">
+                    <span class="circle2"></span> 4
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="b">
+                    <span class="circle2"></span> 5
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="c">
+                    <span class="circle2"></span> 6
+                </label>
+            </div>
+            <div class="question">
+                <p>How many points did Michael Jordan score in his career?</p>
+                <label>
+                    <input type="radio" name="question2" value="a">
+                    <span class="circle2"></span> 32,292
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="b">
+                    <span class="circle2"></span> 32,290
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="c">
+                    <span class="circle2"></span> 32,295
+                </label>
+            </div>
+            <div class="question">
+                <p>What team did MJ NOT play for?</p>
+                <label>
+                    <input type="radio" name="question3" value="a">
+                    <span class="circle2"></span> South Carolina
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="b">
+                    <span class="circle2"></span> Chicago Bulls
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="c">
+                    <span class="circle2"></span> Washington Wizards
+                </label>
+            </div>
+            <button id="submit1" type="submit">Submit</button>
+            <div id="results1"></div>
+        </form>
+    </div>
+    
+    <div class="wrapper2">
+        <div class="bg"></div>
+        <div class="poll-area">
+            <h3 class="hdr">Who is the GOAT?</h3>
+            <label>
+                <input type="radio" name="poll" value="mj">
+                <div class="row">
+                    <div class="column">
+                        <span class="circle"></span>
+                        <span class="text">Michael Jordan</span>
+                    </div>
+                    <span class="percent">50%</span>
+                </div>
+                <div class="progress" style="--w: 75%;"></div>
+            </label>
+            <label>
+                <input type="radio" name="poll" value="kobe">
+                <div class="row">
+                    <div class="column">
+                        <span class="circle"></span>
+                        <span class="text">Kobe Bryant</span>
+                    </div>
+                    <span class="percent">40%</span>
+                </div>
+                <div class="progress" style="--w: 25%;"></div>
+            </label>
+            <label>
+                <input type="radio" name="poll" value="other">
+                <div class="row">
+                    <div class="column">
+                        <span class="circle"></span>
+                        <span class="text">Other</span>
+                    </div>
+                    <span class="percent">10%</span>
+                </div>
+                <div class="progress" style="--w: 25%;"></div>
+            </label>
+        </div>
+    </div>
+    
+    <div class="quiz-container">
+        <form id="quiz-form-2">
+            <header class="hdr">General Quiz</header>
+            <div class="question">
+                <p>Which terminology is NOT used in Basketball?</p>
+                <label>
+                    <input type="radio" name="question4" value="a">
+                    <span class="circle2"></span> Travel
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="b">
+                    <span class="circle2"></span> Glide
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="c">
+                    <span class="circle2"></span> Jab Step
+                </label>
+            </div>
+            <div class="question">
+                <p>How many points is a free throw worth?</p>
+                <label>
+                    <input type="radio" name="question5" value="a">
+                    <span class="circle2"></span> 1
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="b">
+                    <span class="circle2"></span> 2
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="c">
+                    <span class="circle2"></span> 3
+                </label>
+            </div>
+            <div class="question">
+                <p>How many points is a basket made from outside the 3 pointer worth? </p>
+                <label>
+                    <input type="radio" name="question6" value="a">
+                    <span class="circle2"></span> 2
+                </label>
+                <label>
+                    <input type="radio" name="question6" value="b">
+                    <span class="circle2"></span> 4
+                </label>
+                <label>
+                    <input type="radio" name="question6" value="c">
+                    <span class="circle2"></span> 3
+                </label>
+            </div>
+            <button id="submit2" type="submit">Submit</button>
+            <div id="results2"></div>
+        </form>
+    </div>
+</div>
+
+<script src="mjfan.js"></script>
+</body>
+</html>
