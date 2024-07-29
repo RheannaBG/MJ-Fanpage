@@ -736,7 +736,7 @@ body{
 }
 
 .bg {
-    background-image: url('/images/mjkobe.webp');
+    background-image: url('./images/mjkobe.webp');
     background-size: cover;
     background-position: center;
     border-radius: 15px;
