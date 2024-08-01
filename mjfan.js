@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const answers1 = {
                 question1: 'c',
                 question2: 'a',
-                question3: 'a'
+                question3: 'a',
             };
 
             for (let question in answers1) {
